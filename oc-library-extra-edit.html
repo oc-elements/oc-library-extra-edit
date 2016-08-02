@@ -1,0 +1,34 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+`oc-library-extra-edit`
+Element for editing a global extra
+
+@demo demo/index.html 
+-->
+
+<dom-module id="oc-library-extra-edit">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'oc-library-extra-edit',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'oc-library-extra-edit',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
